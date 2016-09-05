@@ -162,11 +162,11 @@ li.navi_company a {
   @media (min-width: 550px) {
     #news_area .news_title {
       text-align: center;
-      font-size: 22px;
       font-size: 2.2rem;
       color: #42b9d0;
       padding: 50px 0 41px 0;
-      letter-spacing: 0.2rem; }
+      letter-spacing: 0.2rem;
+      font-weight: bold; }
     #news_area .news_lists li {
       text-align: center;
       list-style: none;
@@ -340,6 +340,8 @@ h1 {
       padding: 10px 10px 10px 20px;
       background-image: url("../images/news/side_arrow.png");
       background-size: 4px 8px; }
+      #contents #sidebar .pc_sidemenu li a {
+        text-decoration: none; }
 
 #contents #main h2.company_title {
   margin-bottom: 0px; }

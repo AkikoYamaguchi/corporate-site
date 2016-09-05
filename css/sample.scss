@@ -14,7 +14,7 @@ html {
   @include fontsize(16);
 }
 
-$ga_font : "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+$ga_font :"Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $blue1 : #42b9d0;
 $blue2 : #339fd1;
 $gray_blue : #eaf2f4;
@@ -298,10 +298,11 @@ header{
         .news_title{
 
           text-align: center;
-          @include fontsize(22);
+          font-size:2.2rem;
           color: $blue1;
           padding: 50px 0 41px 0;
           letter-spacing: 0.2rem;
+          font-weight:bold;
           }
           
           .news_lists{
@@ -609,13 +610,19 @@ h1{
               padding:10px 10px 10px 20px;
               background-image:url("../images/news/side_arrow.png");
               background-size:4px 8px;
+              
+              a{
+                text-decoration:none;
+              }
         }
+
     }
     //sidebar
   }
   //contents
   
-  
+        
+
   
   
 //company.html-----------------------------//
